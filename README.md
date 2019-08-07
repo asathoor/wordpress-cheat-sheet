@@ -58,7 +58,7 @@ You can add menu areas wherever you need them in your design.
 <img src="<?php echo get_template_directory_uri(); ?>/images/yourImage.png" />
 ~~~~
 
-## Link to a CSS or JavaScripts
+## Link to CSS or JavaScripts
 
 ## Enable jQuery on a webpage
 
