@@ -2,7 +2,7 @@
 
 **Here are some of the mose usefull code snippets for WordPress.**
 
-## Where are the Theme Files
+## Where are the Theme Files?
 
 * Themes: ../wp_content/themes/yourThemeName
 * Plugins: ../wp_content/plugins/yourPluginName
@@ -10,6 +10,21 @@
 ## The Loop
 
 The loop will getx the content from the WordPress database to a webpage. Here is a relatively simple loop.
+Here is a very simple loop from https://developer.wordpress.org/themes/basics/the-loop/ 
+
+~~~~
+<?php
+if ( have_posts() ) :
+    while ( have_posts() ) : the_post();
+        the_title( '<h2>', '</h2>' );
+        the_post_thumbnail();
+        the_excerpt();
+    endwhile;
+else:
+    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+endif;
+?>
+~~~~
 
 ## Import the Header, Footer and Sidebar
 
