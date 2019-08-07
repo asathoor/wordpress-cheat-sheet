@@ -10,7 +10,7 @@
 ## The Loop
 
 The loop will getx the content from the WordPress database to a webpage. Here is a relatively simple loop.
-Here is a very simple loop from https://developer.wordpress.org/themes/basics/the-loop/ 
+Here is a very simple loop from https://developer.wordpress.org/themes/basics/the-loop/
 
 ~~~~
 <?php
@@ -36,6 +36,10 @@ endif;
 
 ## Add a Menu Area
 
+### Step I) In functions.php
+
+### Step II) In the file where the menu should appear
+
 ## How to link to an Image
 
 ## Link to CSS or JavaScripts
@@ -45,3 +49,9 @@ endif;
 ## Run jQuery in the protected mode
 
 ## Create a Costum Frontpage
+
+## Create a theme from scratch
+
+Try Underscores _S - https://underscores.me/
+
+## Rest API
