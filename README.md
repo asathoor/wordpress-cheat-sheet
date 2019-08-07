@@ -1,6 +1,6 @@
 # WordPress Cheat Sheet
 
-**Here are some of the mose usefull code snippets for WordPress.**
+**Here are some of the most used code snippets for WordPress.**
 
 ## Where are the Theme Files?
 
@@ -61,6 +61,8 @@ You can add menu areas wherever you need them in your design.
 ## Link to CSS or JavaScripts
 
 ## Enable jQuery on a webpage
+
+
 
 ## Run jQuery in the protected mode
 
