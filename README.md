@@ -36,19 +36,35 @@ endif;
 
 ## Add a Menu Area
 
+You can add menu areas wherever you need them in your design.
+
 ### Step I) In functions.php
 
 ### Step II) In the file where the menu should appear
 
+### Step III) Create your menu in the Dashboard
+
 ## How to link to an Image
 
-## Link to CSS or JavaScripts
+### A) In a Theme
+
+~~~~
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/yourImage.png">
+~~~~
+
+### B) In a Childtheme
+
+~~~~
+<img src="<?php echo get_template_directory_uri(); ?>/images/yourImage.png" />
+~~~~
+
+## Link to a CSS or JavaScripts
 
 ## Enable jQuery on a webpage
 
 ## Run jQuery in the protected mode
 
-## Create a Costum Frontpage
+## Create a Costum Frontpage or other pages
 
 ## Create a theme from scratch
 
