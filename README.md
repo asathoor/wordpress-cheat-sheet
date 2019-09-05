@@ -155,10 +155,45 @@ Here you have several options.
 
 Tip: often themes has a page called page.php. Copy the file and save it as front-page.php. Then modify it according to your will.
 
+## A fairly typical page
+
+~~~~
+<?php get_header(); ?>
+
+    <div id="text" class="yourClass">
+      <?php get_template_part('loop'); // the main loop ?>
+  	</div>
+
+<!-- /page.php -->
+
+<?php get_footer(); ?>
+~~~~
+
+WordPress use PHP in order to get pages or posts from the database. Save your loop in a separate file *loop.php* - the content of this file is:
+
+~~~~
+<?php
+/**
+ * File: loop.php
+ */
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post();
+		//
+		the_title('<h3 class="title">','</h3>');
+		echo '<div class="content">';
+			the_content();
+		echo '</div>';
+		//
+	} // end while
+} // end if
+?>
+~~~~
+
 ## Create a theme from scratch
 
 Try Underscores _S - https://underscores.me/
 
 ## Rest API
 
-... coming soon ... 
+... coming soon ...
