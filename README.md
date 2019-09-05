@@ -198,8 +198,7 @@ Try Underscores _S - https://underscores.me/
 * Download your theme. It's a zip file.
 * Install the theme on your server.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ruSxM4yr8FA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[See the introduction to _S in this video](https://www.youtube.com/watch?v=ruSxM4yr8FA).
 
 
 ## Rest API
