@@ -2,6 +2,12 @@
 
 **Here are some of the most used code snippets for WordPress.**
 
+
+## Free e-book
+
+You can read about WordPress in my free e-book: [WordPress in the Classroom](http://ipaper.ipapercms.dk/ErhvervsakademiAarhus/Forskningsrapportguides/wordpress-in-the-classroom/?page=1).
+
+
 ## Where are the Theme Files?
 
 * Themes: ../wp_content/themes/yourThemeName
@@ -28,11 +34,21 @@ endif;
 
 ## Import the Header, Footer and Sidebar
 
+Often the building blocks are found in three files:
+
+* header.php - whatever is in the head, header and so on
+* footer.php - whatever comes after the loop or content has ended
+* sidebar.php - asides, menus, widget areas and similar
+
+The content of these partial files are imported like this:
+
 ~~~~
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
 ~~~~
+
+
 
 ## Add a Menu Area
 
