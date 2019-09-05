@@ -194,6 +194,14 @@ if ( have_posts() ) {
 
 Try Underscores _S - https://underscores.me/
 
+* Give your theme a name.
+* Download your theme. It's a zip file.
+* Install the theme on your server.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ruSxM4yr8FA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Rest API
 
 ... coming soon ...
