@@ -177,7 +177,7 @@ Tip: often themes has a page called page.php. Copy the file and save it as front
 <?php get_header(); ?>
 
     <div id="text" class="yourClass">
-      <?php get_template_part('loop'); // the main loop ?>
+      <?php get_template_part('loop'); // import: loop.php ?>
   	</div>
 
 <!-- /page.php -->
@@ -205,6 +205,35 @@ if ( have_posts() ) {
 } // end if
 ?>
 ~~~~
+
+## Add Extra Widget Areas
+
+**In functions.php**
+
+~~~~
+add_action( 'widgets_init', 'my_widget' ); // add the widget
+
+function my_widget() {
+    register_sidebar( array(
+        'name'          => __( 'My Extra Sidebar' ),
+        'id'            => 'sidebar-2',
+        'before_widget' => '<div class="sidebar-2">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+}
+~~~~
+
+**In the page / post file**
+
+~~~~
+<?php dynamic_sidebar('sidebar-2'); ?>
+~~~~
+
+**More about widgets**
+
+More about widget ares from [the Codex](https://codex.wordpress.org/Widgets_API)
 
 ## Create a theme from scratch
 
