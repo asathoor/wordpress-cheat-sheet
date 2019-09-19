@@ -32,6 +32,20 @@ endif;
 ?>
 ~~~~
 
+You may want to format the loop. For instance with the date or the name of the author. In order to get this king of information you can use some of the template tags in the loop:
+
+* [Template Tags](https://codex.wordpress.org/Template_Tags)
+
+Here are a few:
+
+~~~~
+the_author();
+the_date();
+previous_post_link()
+next_post_link()
+~~~~
+
+
 ## Import the Header, Footer and Sidebar
 
 Often the building blocks are found in three files:
