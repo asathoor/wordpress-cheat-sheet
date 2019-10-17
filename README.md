@@ -259,6 +259,15 @@ Try Underscores _S - https://underscores.me/
 
 [See the introduction to _S in this video](https://www.youtube.com/watch?v=ruSxM4yr8FA).
 
+## Custom Page Template
+
+Add a name for your tamplate before the oridnary html:
+
+~~~~
+<?php /* Template Name: My Custom Page */ ?>
+~~~~
+
+Save the template in your child theme folder. Then go to the Dashboard, and create a page and use the template.
 
 ## Rest API
 
