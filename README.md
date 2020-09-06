@@ -264,11 +264,7 @@ Try Underscores _S - https://underscores.me/
 Add a name for your tamplate before the oridnary html:
 
 ~~~~
-<?php /* Template Name: My Custom Page */ ?>
+<?php /* Template Name: Page Full Width */ ?>
 ~~~~
 
 Save the template in your child theme folder. Then go to the Dashboard, and create a page and use the template.
-
-## Rest API
-
-... coming soon ...
