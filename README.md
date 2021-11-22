@@ -7,6 +7,10 @@
 
 You can read about WordPress in my free e-book: [WordPress in the Classroom](http://ipaper.ipapercms.dk/ErhvervsakademiAarhus/Forskningsrapportguides/wordpress-in-the-classroom/?page=1).
 
+## NEW: Headsless Wordpress
+
+Read my new book about WordPress REST API. The book is available as an e-book or printed, [click here](https://www.lulu.com/en/en/shop/per-skolander-thykjaer-jensen/headless-wordpress/paperback/product-nnk654.html?page=1&pageSize=4). 
+
 
 ## Where are the Theme Files?
 
